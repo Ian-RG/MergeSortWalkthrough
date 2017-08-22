@@ -36,7 +36,7 @@ We take each pair of size 1 arrays at the bottom of the tree and compare their v
 First, the lesser value is inserted into the array above it, followed by the larger value. This “merges” the two smaller arrays into one larger array.  
 ![Array tree image 7](https://raw.githubusercontent.com/Ian-RG/MergeSortWalkthrough/master/Array_7.png)  
 
-Lets move up to the next level in the tree. Here we’re just performing the same steps as before, ensuring we’re comparing the two lowest values in each array and inserting the lower one into the array above. First we compare 1 and 6. 1 is less than 6, so it is inserted.  
+Lets move up to the next level in the tree. Here we’re just performing the same steps as before, ensuring we’re comparing the two lowest values in each array and inserting the lesser value into the array above. First we compare 1 and 6. 1 is less than 6, so it is inserted.  
 ![Array tree image 8](https://raw.githubusercontent.com/Ian-RG/MergeSortWalkthrough/master/Array_8.png)  
 
 Then we compare 5 and 6. 5 is less than 6, so 5 is inserted.  
